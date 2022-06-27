@@ -46,3 +46,13 @@ console.info ("l'utilisateur a " + age + " ans");
 A=29
 B=A+2
 console.info ("l'utilisateur aura " +  B + " ans");
+
+
+prix = prompt("quel est le prix ?");
+
+console.error("l'article vaut " + prix + " euros")
+
+prixtva=parseInt(prix) * 1.2;
+
+console.error("l'article vaut " + prixtva + " euros TTC")
+
