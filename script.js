@@ -56,5 +56,5 @@ prixtva=parseInt(prix) * 1.2;
 
 console.error("l'article vaut " + prixtva + " euros TTC")
 
-var now = new Date();
-console.log("maintenant",now) 
+var date = new Date();
+console.log("Aujourd'hui",date) 
