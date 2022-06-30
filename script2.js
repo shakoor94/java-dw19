@@ -22,7 +22,7 @@ if (nombre > 0) {
     console.error("le nombre est positif");
 }
 
-if (nombre < 0) {
+else {
     console.error("le nombre est négatif");
 }
 
@@ -36,3 +36,13 @@ if (nombre %2==0) {
 else {
     console.error("le nombre est impair")
 }
+
+
+prénom= prompt("quel est votre prénom?");
+nom="Shakoor"
+
+
+if (prénom==nom) {
+    console.error("sympa vous avez le même prénom que moi");
+}
+
